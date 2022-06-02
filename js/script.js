@@ -63,6 +63,6 @@ function getRandomCocktail() {
 
 // Event listeners
 submit.addEventListener('click', searchCocktail);
-// submit.addEventListener('click', searchCocktail);
+
 
 
