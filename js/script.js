@@ -1,3 +1,4 @@
+
 const  submit = document.querySelector('#submit');
 const  search = document.querySelector('#search');
 const singleCocktail = document.querySelector('#single-cocktail');
@@ -65,14 +66,3 @@ submit.addEventListener('click', searchCocktail);
 // submit.addEventListener('click', searchCocktail);
 
 
-singleCocktail.innerHTML = '';
-                data.drinks.forEach(drink => {
-                    const card = `
-                    <div class="card">
-                        <img src="${drink.strDrinkThumb}" alt="${drink.strDrink}">
-                        <h2>${drink.strDrink}</h2>
-                        <p>${drink.strInstructions}</p>
-                    </div>
-                    `;
-                    singleCocktail.innerHTML += card;
-                });
