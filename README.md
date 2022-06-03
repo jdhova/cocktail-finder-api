@@ -14,5 +14,7 @@ Create a responsive web app which consumes an API and lists the data. In additio
 ## Solution
 
 ```
-Web Dev api build with Vanilla JS
+Fully Responsive Web Dev api build with Vanilla JS
 ```
+
+## STATUS: COMPLETE
